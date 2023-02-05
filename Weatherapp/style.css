@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Flamenco&family=Lato:ital,wght@0,300;0,400;1,300;1,700&family=Lobster+Two:ital,wght@1,700&family=Mukta:wght@300;400&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto:wght@100;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+}
+
+body{
+    background: #afaffc; 
+    margin-bottom: 20px;
+}
+
+
+form{
+
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 10px;
+    background:#ff8080;
+    padding: 5px;
+    margin-top: 50px;
+
+}
+
+input[type="text"]{
+
+ padding: 10px;
+ font-size: 1rem;
+ outline: none;
+ border-radius: 5px;
+ border: none;
+
+}
+
+input[type="submit"]{
+
+    padding: 10px;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.row{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2, h4{
+    font-size: 20px;
+    color: white;
+}
